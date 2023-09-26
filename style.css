@@ -3,7 +3,10 @@
     body {background-color: rgb(252, 224, 131);}
     .header   {color: rgb(87, 87, 232); font-size:40px;}
     .text   {color: rgb(255, 225, 128);}
-    .button {border: 2px solid rgb(87, 87, 232); width: 80px; height:50px; display: block; margin-left: auto; margin-right: auto; font-size: 16px; transition-duration: 0.4s; border-radius: 8px;}
+    .button {border: 2px solid rgb(87, 87, 232); width: 80px; height:50px; display: block; margin-left: auto; margin-right: auto; font-size: 16px; transition-duration: 0.4s; border-radius: 8px; }
+    .button:empty {
+      background: red;
+    }
     .button:hover {background-color:rgb(87, 87, 232) ; color: rgb(255, 225, 128);}
     .center {display: block; margin-left: auto; margin-right: auto; width: 20%; margin: 0 7px 7px 7px; float: right;}
     .mainstyle {font-size: 25px;color: rgb(6, 47, 113);font-family: 'Brush Script MT', cursive;line-height: 1.7;word-spacing: 0.5px;}
